@@ -21,6 +21,10 @@ function SeriesSum(n)
     .reduce((sum, i) => sum + i, 0)).toFixed(2)
 }
 
+// function SeriesSum(n, s = 0) {
+//   return n ? SeriesSum(n - 1, s + 1 / (3 * n - 2)) : s.toFixed(2)
+// }
+
 // Sample Tests:
 const assert = require('assert')
 describe('Test my SeriesSum function', () => {
