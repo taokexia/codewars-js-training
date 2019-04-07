@@ -41,6 +41,11 @@ function validBraces(braces){
   return false
 }
 
+// function validBraces(braces){
+//   while(/\(\)|\[\]|\{\}/g.test(braces)){braces = braces.replace(/\(\)|\[\]|\{\}/g,"")}
+//   return !braces.length;
+// }
+
 // Sample Test
 const assert = require('assert')
 describe('Sample Test', () => {
