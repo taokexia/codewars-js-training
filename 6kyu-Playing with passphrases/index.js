@@ -32,6 +32,14 @@ function playPass(s, n) {
     .split('').reverse().join('')
 }
 
+// const playPass = (s, n) => s
+//   .replace(/\d/g, x => 9 - x)
+//   .split``
+//   .map((e, i) => (/[a-z]/i.test(e) ? shift(e, n) : e)[`to${i % 2 ? 'Lower' : 'Upper'}Case`]())
+//   .reverse()
+//   .join``;
+// const shift = (s, n) => String.fromCharCode((s = n + s.charCodeAt()) > 90 ? (s - 26) : s);
+
 // Sample Test:
 const assert = require('assert')
 describe('test', () => {
