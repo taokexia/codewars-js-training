@@ -12,6 +12,9 @@ function array_diff(a, b) {
   return a.filter(i => b.indexOf(i) === -1)
 }
 
+// function array_diff(a, b) {
+//   return a.filter(e => !b.includes(e));
+// }
 
 // Sample Tests
 const assert = require('assert')
