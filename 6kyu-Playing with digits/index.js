@@ -35,6 +35,11 @@ function digPow(n, p){
   else return -1
 }
 
+// function digPow(n, p) {
+//   var x = String(n).split("").reduce((s, d, i) => s + Math.pow(d, p + i), 0)
+//   return x % n ? -1 : x / n
+// }
+
 // Sample Test:
 const assert = require('assert')
 assert.strictEqual(digPow(89, 1), 1)
